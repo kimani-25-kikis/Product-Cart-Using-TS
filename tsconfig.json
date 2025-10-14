@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* === File Structure === */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* === Language and Module Target === */
+    "target": "ES6",
+    "module": "ES6",
+    "lib": ["DOM", "ESNext"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowJs": false,
+
+    /* === Type Safety === */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* === Output Control === */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true
+  },
+
+  "include": ["src/**/*"]
+}

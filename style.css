@@ -183,9 +183,8 @@ h1 {
     font-weight: 600;
 }
 
-/* ------------------- */
 /* Styles for Cart with Items */
-/* ------------------- */
+
 .cart-items-container {
     display: flex;
     flex-direction: column;
@@ -305,7 +304,7 @@ h1 {
 
 
 
-/* START: Adding Modal Styles!!! Order Confirmed Modal */
+/*Adding Modal Styles!!! Order Confirmed Modal */
 
 .modal-overlay {
     position: fixed;
@@ -443,4 +442,3 @@ h1 {
 .start-new-order-btn:hover {
     background-color: hsl(14, 86%, 35%);
 }
-/* END: Added Modal Styles */
